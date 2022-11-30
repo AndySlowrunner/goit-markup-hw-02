@@ -1,0 +1,76 @@
+:root {
+    --primery-color: #4D5AE5;
+    --headings-color: #2E2F42;
+    --bodytext-color: #434455;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--bodytext-color);
+    background-color: #ffff;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--bodytext-color);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+span{
+    color: var(--primery-color);
+}
+/* Navigation style */
+.site-nav a {
+    color: var(--headings-color);
+}
+.site-nav :hover, .site-nav :focus {
+    color: var(--bodytext-color);
+}
+.site-nav :active {
+    color: var(--primery-color);
+}
+.auth-nav a {
+    color: var(--bodytext-color);
+}
+.auth-nav :hover,
+.auth-nav :focus {
+    color: var(--primery-color)
+}
+/* Hero */
+.hero, .hero-title {
+    color: #ffff;
+}
+/* Section style */
+.section, .section-title {
+    color: var(--headings-color);
+}
+/* Feuters style */
+.feutere-list, .title {
+    color: var(--headings-color);
+}
+/* Our team */
+.employees, .title {
+    color: var(--headings-color);
+}
+/* Footer */
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    color: #F4F4FD;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/* Button */
+.button {
+    color: #ffff;
+    background-color: var(--primery-color);
+}
+.button :hover {
+    background-color: var(--primery-color);
+}
+.button :active {
+    background-color: #404BBF;
+}
