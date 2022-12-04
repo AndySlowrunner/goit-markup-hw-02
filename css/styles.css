@@ -18,19 +18,20 @@ ul {
 a {
     text-decoration: none;
 }
-.header-logo {
+.header .logo {
     color: var(--headings-color);
 
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 span{
     color: var(--primery-color);
 }
+
 /* Navigation style */
 .site-nav .link {
     color: var(--headings-color);
@@ -50,6 +51,7 @@ span{
 .auth-nav .link:focus {
     color: var(--primery-color);
 }
+
 /* Hero */
 .hero {
     background: var(--headings-color);
@@ -61,6 +63,7 @@ span{
     line-height: 1.07;
     text-align: center;
 }
+
 /* Button */
 .btn-primery {
     color: var(--primery-white-color);
@@ -96,6 +99,7 @@ span{
     color: var(--primery-white-color);
     background: #404BBF;
 }
+
 /* Section style */
 .section-title {
     color: var(--headings-color);
@@ -105,9 +109,9 @@ span{
     text-align: center;
     text-transform: capitalize;
 }
-/* Features and Projects style */
-.features-list .title,
-.projects-list .title {
+
+/* Features style */
+.features-list .title {
     color: var(--headings-color);
     
     font-size: 20px;
@@ -117,6 +121,17 @@ span{
 /* Our employees */
 .employees-list .title {
     color: var(--headings-color);
+
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* Projects style */
+.projects-list .title {
+    color: var(--headings-color);
+
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 /* Footer */
@@ -125,7 +140,7 @@ span{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
